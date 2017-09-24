@@ -1,0 +1,117 @@
+body {
+    background-color: #FFFFFF;
+    font-family: 'Duru Sans', sans-serif;
+}
+
+.container-fluid > * {
+    margin: 0 -15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #FCF5F5;
+}
+
+.container-fluid .page-header {
+    padding-top: 15px;
+    text-align: center;
+}
+
+[id^=section] > .row {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.page-header {
+    background-image: url("../img/header.png")
+}
+
+.page-header h1 {
+    padding-top: 15px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.page-header h1, .page-header h2 {
+    margin: 0;
+    font-style: bold;
+}
+
+.page-header h2 {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.page-header p {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+button {
+    color: #FFFFFF;
+    background-color: #DF3274;
+    border-color: #DF3274;
+}
+
+#section-evento {
+    padding-top: 15px;
+    padding-bottom: 35px;
+    color: #6E6E70;
+}
+
+#section-palestrantes {
+    text-align: left;
+    padding-bottom: 15px;
+    color: #6E6E70;
+}
+
+#section-palestrantes .bio {
+    font-size: 16px; 
+    text-align: center;   
+}
+
+#section-palestrantes .wrapper-img-bio {
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+#section-palestrantes .wrapper-img-bio img {
+    width: 80px;
+    height: 80px;
+}
+
+#section-palestrantes .nome {
+    text-align: center;
+    font-weight: bold;
+}
+
+#section-patrocinadores {
+    background-color: #fcfcfc;
+    padding-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.page-footer {
+    background-image: url("../img/footer.png");
+    text-align: center;
+}
+
+.page-footer h1 {
+    padding-top: 15px;    
+}
+
+.page-footer h1, .page-header h2 {
+    margin: 0;
+    font-style: bold;
+    color: #FFFFFF;
+}
+
+ .page-footer h2 {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.page-footer p {
+    font-size: 16px;
+}
