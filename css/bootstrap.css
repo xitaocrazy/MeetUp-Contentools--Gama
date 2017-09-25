@@ -1264,7 +1264,7 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 52px;
+  font-size: 36px;
 }
 h2,
 .h2 {
@@ -3002,10 +3002,10 @@ select[multiple].input-lg {
 }
 .btn {
   display: inline-block;
-  padding: 12px 12px;
-  margin-bottom: 15px;
-  font-size: 20px;
-  font-weight: bold;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
   line-height: 1.42857143;
   text-align: center;
   white-space: nowrap;
@@ -3020,7 +3020,6 @@ select[multiple].input-lg {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
-      background-color: #ff0048;
 }
 .btn:focus,
 .btn:active:focus,
@@ -3034,9 +3033,8 @@ select[multiple].input-lg {
 .btn:hover,
 .btn:focus,
 .btn.focus {
+  color: #333;
   text-decoration: none;
-       background-color: #e50040;
-         border: 1px solid transparent;
 }
 .btn:active,
 .btn.active {

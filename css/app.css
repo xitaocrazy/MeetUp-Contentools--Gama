@@ -1,47 +1,6 @@
-@font-face {
-    font-family: ForeverYoung;
-    src: url("../fonts/Forever Young.eot"),
-         url("../fonts/Forever Young.svg"),
-         url("../fonts/Forever Young.woff"),
-         url("../fonts/Forever Young.woff2");
-}
-
 body {
     background-color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-
-p{
-  opacity: 0.5;
-  font-family: Poppins;
-  font-size: 24px;
-  text-align: center;
-  color: #313131;  
-}
-
-.titles {
-    font-family: 'ForeverYoung'
-}
-
-.event-title {
-    font-size: 200px !important;
-    color: #00e0ff !important;
-    line-height: 0.55 !important;
-    padding-bottom: 50px;
-}
-
-.section-title {
-    font-size: 108px !important;
-    color: #9f9aae !important;
-    line-height: 0.55 !important;
-    padding-bottom: 50px;
-}
-
-.container-fluid {
-    padding: 0px;
 }
 
 .container-fluid > * {
@@ -56,34 +15,8 @@ p{
     text-align: center;
 }
 
-.no-margin{
-    width: 100%
-    padding: 0px !important;
-}
-
 .container {
     display: table;
-}
-
-
-
-.center-mkt{
-    margin-top: 50px;
-    padding-top: 50px;
-}
-
-.mkt {
-  border: solid 3.6px #ffffff;
-  display: inline-block;   
-  width: 481px;
-  height: 69px;
-  font-family: Poppins;
-  font-size: 55px;
-  font-weight: bold;
-  line-height: 1.16;
-  text-align: center;
-  color: #ffffff;
-  margin: 0 auto; 
 }
 
 .centered {
@@ -101,10 +34,8 @@ p{
 }
 
 .page-header {
-    background-image: url("../img/top_bg_opt.jpg");
+    background-image: url("../img/header.jpg");
     text-align: center;
-    margin: auto;
-      background-size: cover;
 }
 
 .page-header span {
@@ -140,7 +71,7 @@ p{
 .page-header a {
     margin-top: 10px;
     color: #FFFFFF;
-
+    background-color: #DF3274;
     border-color: #DF3274;
 }
 
