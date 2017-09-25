@@ -203,6 +203,8 @@ p{
 .page-footer {
     background-image: url("../img/footer.jpg");
     text-align: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 
 .page-footer h1 {
