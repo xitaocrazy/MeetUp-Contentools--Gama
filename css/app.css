@@ -34,6 +34,14 @@ p{
     padding-bottom: 50px;
 }
 
+.footer-title {
+    font-size: 108px !important;
+    color: #9f9aae !important;
+    line-height: 0.55 !important;
+    padding-bottom: 50px;
+      opacity: 1.5;
+}
+
 .section-title {
     font-size: 108px !important;
     color: #9f9aae !important;
@@ -103,7 +111,7 @@ p{
     background-image: url("../img/top_bg_opt.jpg");
     text-align: center;
     margin: auto;
-      background-size: cover;
+    background-size: cover;
 }
 
 .page-header span {
@@ -203,10 +211,11 @@ p{
 }
 
 .page-footer {
-    background-image: url("../img/footer.jpg");
+    background-image: url("../img/bot_bg_opt.jpg");
     text-align: center;
     background-repeat: no-repeat;
-	background-size: 100% 100%;
+
+    background-size: cover;
 }
 
 .page-footer h1 {
