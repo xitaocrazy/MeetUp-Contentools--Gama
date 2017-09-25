@@ -110,6 +110,7 @@ p{
 .page-header {
     background-image: url("../img/top_bg_opt.jpg");
     text-align: center;
+    background-repeat: no-repeat;
     margin: auto;
     background-size: cover;
 }
@@ -187,6 +188,10 @@ p{
     font-weight: bold;
 }
 
+#section-palestrantes #ingresso{
+    padding-top: 20px;
+}
+
 #section-palestrantes #ingresso a {
     margin-top: 10px;
     color: #FFFFFF;
@@ -197,7 +202,8 @@ p{
     background-color: #fcfcfc;
     padding-bottom: 20px;
     color: #6E6E70;
-    text-align: center;
+    text-align: center;  
+    display: none;  
 }
 
 #section-patrocinadores h1 {
@@ -214,7 +220,7 @@ p{
     background-image: url("../img/bot_bg_opt.jpg");
     text-align: center;
     background-repeat: no-repeat;
-
+    margin: auto;
     background-size: cover;
 }
 
