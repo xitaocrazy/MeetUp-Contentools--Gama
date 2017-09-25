@@ -1,6 +1,6 @@
 body {
     background-color: #FFFFFF;
-    font-family: 'Duru Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container-fluid > * {
@@ -15,31 +15,52 @@ body {
     text-align: center;
 }
 
+.container {
+    display: table;
+}
+
+.centered {
+    display: table-cell;
+    width: 316px;
+    text-align: center;
+    vertical-align: middle;
+}
+
 [id^=section] > .row {
-    max-width: 1280px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
 
 .page-header {
-    background-image: url("../img/header.png")
+    background-image: url("../img/header.jpg");
+    text-align: center;
+}
+
+.page-header span {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #75C8F8;
+    font-weight: bold;
+    font-size: 72px;
 }
 
 .page-header h1 {
-    padding-top: 15px;
-    color: #FFFFFF;
-    font-weight: bold;
+    border: solid 1px;
+    border-radius: 1px;
+    width: 315px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
-.page-header h1, .page-header h2 {
+.page-header h1, .page-header h2, .page-header h3 {
     margin: 0;
     font-style: bold;
-}
-
-.page-header h2 {
-    font-size: 24px;
     color: #FFFFFF;
+    font-weight: bold;
 }
 
 .page-header p {
@@ -47,7 +68,8 @@ body {
     color: #FFFFFF;
 }
 
-button {
+.page-header a {
+    margin-top: 10px;
     color: #FFFFFF;
     background-color: #DF3274;
     border-color: #DF3274;
@@ -85,33 +107,55 @@ button {
     font-weight: bold;
 }
 
+#section-palestrantes #ingresso a {
+    margin-top: 10px;
+    color: #FFFFFF;
+    background-color: #DF3274;
+    border-color: #DF3274;
+}
+
 #section-patrocinadores {
     background-color: #fcfcfc;
     padding-bottom: 20px;
-    color: #333;
+    color: #6E6E70;
     text-align: center;
 }
 
+#section-patrocinadores h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;  
+}
+
+#section-patrocinadores #col-sm-4 {
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
 .page-footer {
-    background-image: url("../img/footer.png");
+    background-image: url("../img/footer.jpg");    
     text-align: center;
 }
 
 .page-footer h1 {
-    padding-top: 15px;    
+    padding-top: 15px; 
+    margin-top: 25px;
+    margin-bottom: 25px; 
 }
 
-.page-footer h1, .page-header h2 {
+.page-footer h1, .page-footer h2 {
     margin: 0;
-    font-style: bold;
-    color: #FFFFFF;
+    font-style: bold; 
+    color: #FFFFFF;  
 }
 
- .page-footer h2 {
-    font-size: 24px;
-    color: #FFFFFF;
+.page-footer h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;  
 }
 
-.page-footer p {
-    font-size: 16px;
+.page-footer a {
+    margin-top: 10px;
+    color: #FFFFFF;
+    background-color: #DF3274;
+    border-color: #DF3274;
 }
