@@ -58,15 +58,13 @@ p{
 }
 
 .no-margin{
-    width: 100%
+    width: 100%;
     padding: 0px !important;
 }
 
 .container {
     display: table;
 }
-
-
 
 .center-mkt{
     margin-top: 50px;
@@ -162,6 +160,10 @@ p{
     text-align: center;
 }
 
+#section-palestrantes .bio p {
+    font-size: 16px;
+}
+
 #section-palestrantes .wrapper-img-bio {
     display: inline-block;
     padding-bottom: 10px;
@@ -203,13 +205,8 @@ p{
 .page-footer {
     background-image: url("../img/footer.jpg");
     text-align: center;
-<<<<<<< HEAD
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-=======
-	background-repeat: no-repeat;
 	background-size: 100% 100%;
->>>>>>> ae227e1c85053b13cd05ea3e5768710af04ef84a
 }
 
 .page-footer h1 {
