@@ -23,7 +23,7 @@ body {
 }
 
 .page-header {
-    background-image: url("../img/header.png")
+    background-image: url("../img/bgs_bot bg.png")
 }
 
 .page-header h1 {
@@ -66,8 +66,8 @@ button {
 }
 
 #section-palestrantes .bio {
-    font-size: 16px; 
-    text-align: center;   
+    font-size: 16px;
+    text-align: center;
 }
 
 #section-palestrantes .wrapper-img-bio {
@@ -93,12 +93,12 @@ button {
 }
 
 .page-footer {
-    background-image: url("../img/footer.png");
+    background-image: url("../img/bgs_bot bg.png");
     text-align: center;
 }
 
 .page-footer h1 {
-    padding-top: 15px;    
+    padding-top: 15px;
 }
 
 .page-footer h1, .page-header h2 {
