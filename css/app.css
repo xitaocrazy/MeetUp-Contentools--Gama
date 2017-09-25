@@ -5,6 +5,12 @@
          url("../fonts/ForeverYoung.svg"),
          url("../fonts/ForeverYoung.woff"),
          url("../fonts/ForeverYoung.woff2");
+=======
+    src: url("../fonts/Forever Young.eot"),
+         url("../fonts/Forever Young.svg"),
+         url("../fonts/Forever Young.woff"),
+         url("../fonts/Forever Young.woff2");
+>>>>>>> ae227e1c85053b13cd05ea3e5768710af04ef84a
 }
 
 body {
