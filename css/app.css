@@ -40,6 +40,7 @@ p{
     line-height: 0.55 !important;
     padding-bottom: 50px;
       opacity: 1.5;
+          padding-top: 30px;
 }
 
 .section-title {
@@ -75,7 +76,7 @@ p{
 }
 
 .center-mkt{
-    margin-top: 50px;
+
     padding-top: 50px;
 }
 
@@ -173,14 +174,18 @@ p{
     font-size: 16px;
 }
 
+.linked-icon {
+    padding-bottom: 25px;
+}
+
 #section-palestrantes .wrapper-img-bio {
     display: inline-block;
     padding-bottom: 10px;
 }
 
 #section-palestrantes .wrapper-img-bio img {
-    width: 80px;
-    height: 80px;
+    width: 125px;
+    height: 125px;
 }
 
 #section-palestrantes .nome {
@@ -249,4 +254,88 @@ p{
 
 .page-footer p {
     font-size: 16px;
+}
+
+@media (max-width: 600px){
+
+.event-title {
+    font-size: 130px !important;
+    color: #00e0ff !important;
+    line-height: 0.55 !important;
+    padding-bottom: 50px;
+}
+
+.footer-title {
+    font-size: 98px !important;
+    color: #9f9aae !important;
+    line-height: 0.55 !important;
+    padding-bottom: 50px;
+      opacity: 1.5;
+}
+
+.section-title {
+    font-size: 66px !important;
+    color: #9f9aae !important;
+    line-height: 0.55 !important;
+    padding-bottom: 50px;
+}
+
+.mkt {
+  border: solid 3.6px #ffffff;
+  display: inline-block;   
+  width: 225px;
+  height: 89px;
+  font-family: Poppins;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 1.16;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto; 
+}
+
+
+}
+
+
+
+@media (max-width: 380px){
+
+.event-title {
+    font-size: 90px !important;
+    color: #00e0ff !important;
+    line-height: 0.55 !important;
+    padding-bottom: 50px;
+}
+
+.footer-title {
+    font-size: 90px !important;
+    color: #9f9aae !important;
+    line-height: 0.55 !important;
+    padding-bottom: 50px;
+      opacity: 1.5;
+}
+
+.section-title {
+    font-size: 66px !important;
+    color: #9f9aae !important;
+    line-height: 0.55 !important;
+    padding-bottom: 50px;
+}
+
+.mkt {
+  border: solid 3.6px #ffffff;
+  display: inline-block;   
+  width: 180px;
+  height: 70px;
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.16;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto; 
+}
+
+
 }
