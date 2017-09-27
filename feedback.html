@@ -205,8 +205,8 @@
 
         self.responder = function(valor){
             var params = {nota: valor}
-            //var url = "http://localhost:24125/api/leads/postfrombody";
-            //$.post(url, params);
+            var url = "http://www.marketingtime.com.br/pesquisa.php";
+            $.post(url, params);
             self.exibirPesquisaDeOpiniao(false);
         }
     }
