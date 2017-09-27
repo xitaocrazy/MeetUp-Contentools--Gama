@@ -292,12 +292,7 @@ p{
   text-align: center;
   color: #ffffff;
   margin: 0 auto; 
-}
-
-
-}
-
-
+}}
 
 @media (max-width: 380px){
 
@@ -313,7 +308,7 @@ p{
     color: #9f9aae !important;
     line-height: 0.55 !important;
     padding-bottom: 50px;
-      opacity: 1.5;
+    opacity: 1.5;
 }
 
 .section-title {
@@ -335,7 +330,34 @@ p{
   text-align: center;
   color: #ffffff;
   margin: 0 auto; 
+}}
+
+#section-color{
+    text-align: center;
+}
+
+#section-color div{
+    color:#fff;
+    width:300px;
+    height:300px;
+    line-height:300px;
+    vertical-align:middle;
+    text-align:center;
+    font-size:30px;
+    border-radius:50%;
+    margin-bottom: 65px;
+    margin-top: 65px;
 }
 
 
+
+#section-opiniao .wrapper-img-opinion {
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+#section-opiniao .wrapper-img-opinion img {
+    width: 275px;
+    height: 275px;
+    margin-bottom: 25px;
 }
