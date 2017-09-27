@@ -35,14 +35,14 @@
     <div id="section-evento">
         <div class="row">
             <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3"> 
-                <h1 class="titles" data-bind="text: mensagem"></h1>                 
+                <h1 class="feedback-title" data-bind="text: mensagem"></h1>                 
             </div>            
         </div>
     </div>
 
     <div id="section-color">
         <div class="row" data-bind="style: { background: cor }"></div>
-        <h3 class="nome" data-bind="text: corNome"></h3>
+<br>        <h3 class="nome" data-bind="text: corNome"></h3>
     </div>
 
     <div  id="section-patrocinadores">
@@ -100,7 +100,7 @@
 
         self.mensagem = ko.computed(function(){
             var cores = ["PRODUTIVIDADE", "ENGAJAMENTO", "SEO PARA CONTEUDO"];
-            return "Quais são seus ingishts sobre " + cores[self.corId()] + "?";
+            return "Encontre alguem que tenha a mesma cor de bola, e compartilhe seus ingishts sobre " + cores[self.corId()] + "!";
         }, this);
     }
 

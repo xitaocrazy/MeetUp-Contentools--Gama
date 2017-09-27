@@ -23,6 +23,50 @@ p{
   color: #313131;  
 }
 
+
+.feedback-title {
+  font-family: Poppins !important;
+  font-size: 30px !important;
+  font-weight: bold !important;
+  line-height: 1.13 !important;
+  text-align: center;
+  color: #0090a4;
+}
+
+
+.feedback-title {
+  font-family: Poppins !important;
+  font-size: 30px !important;
+  font-weight: bold !important;
+  line-height: 1.13 !important;
+  text-align: center;
+  color: #0090a4;
+}
+
+
+.feedback-sub {
+  font-size: 22px !important;
+  text-align: center !important;
+  color: #707070;
+
+}
+
+.nps-button {
+  width: 60px;
+  height: 60px;
+  border-radius: 13px;
+  font-family: Poppins;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  
+}
+
+.feedback-exp {
+
+}
+
 .titles {
     font-family: 'ForeverYoung'
 }
@@ -188,9 +232,17 @@ p{
     height: 125px;
 }
 
+.nome{
+      font-size: 36px;
+      font-weight: bold;
+      font-family: 'Poppins';
+      opacity: 0.8;
+}
+
 #section-palestrantes .nome {
     text-align: center;
     font-weight: bold;
+
 }
 
 #section-palestrantes #ingresso{
@@ -356,7 +408,7 @@ p{
 }
 
 #section-opiniao .wrapper-img-opinion img {
-    width: 75px;
-    height: 75px;
+    width: 25px;
+    height: 05px;
     margin-bottom: 25px;
 }

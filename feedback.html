@@ -37,15 +37,17 @@
         <div id="section-evento">
             <div class="row">
                 <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3"> 
-                    <h1>Como foi sua experiência</h1>  
-                    <h1>com nosso MeetUp?</h1>                 
+                    <br>
+                    <br>
+                    <div class="feedback-title">Como foi sua experiência <br> 
+                    com nosso MeetUp?</div>                  
                 </div>            
             </div>
         </div>
         <div class="row">
             <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3"> 
-                <h2>Em uma escala de 1 a 10, quanto você indicaria</h2>  
-                <h2>a um amigo ou familia o Content Insight MeetUp?</h2>                 
+                <div class="feedback-sub"> Em uma escala de 1 a 10, quanto você indicaria  
+                <br>a um amigo ou familia o Content Insight MeetUp?</div>             
             </div>            
         </div>
         <br>  
@@ -56,7 +58,7 @@
                     <div class="bio">
                         <div class="bio-img-nome">
                             <div class="wrapper-img-opinion">
-                                <img class="img-circle" src="img/like.png" data-bind="click: responder.bind($data, 1)">
+                                <button class="nps-button" style="background-color: #d52027" data-bind="click: responder.bind($data, 1)"> 1 </button>
                             </div>
                         </div>                        
                     </div>
@@ -65,7 +67,7 @@
 					<div class="bio">
 						<div class="bio-img-nome">
 							<div class="wrapper-img-opinion">
-								<img class="img-circle" src="img/unlike.png" data-bind="click: responder.bind($data, 2)">
+                                <button class="nps-button" style="background-color: #f05122" data-bind="click: responder.bind($data, 2)"> 2 </button>
 							</div>
 						</div>
 					</div>
@@ -74,7 +76,7 @@
                     <div class="bio">
                         <div class="bio-img-nome">
                             <div class="wrapper-img-opinion">
-                                <img class="img-circle" src="img/like.png" data-bind="click: responder.bind($data, 3)">
+                                <button class="nps-button" style="background-color: #f86c1b" data-bind="click: responder.bind($data, 3)"> 3 </button>
                             </div>
                         </div>                        
                     </div>
@@ -83,7 +85,7 @@
 					<div class="bio">
 						<div class="bio-img-nome">
 							<div class="wrapper-img-opinion">
-								<img class="img-circle" src="img/unlike.png" data-bind="click: responder.bind($data, 4)">
+                                <button class="nps-button" style="background-color: #f9a626" data-bind="click: responder.bind($data, 4)"> 4 </button>
 							</div>
 						</div>
 					</div>
@@ -92,7 +94,7 @@
                     <div class="bio">
                         <div class="bio-img-nome">
                             <div class="wrapper-img-opinion">
-                                <img class="img-circle" src="img/like.png" data-bind="click: responder.bind($data, 5)">
+                                <button class="nps-button" style="background-color: #ffc72d" data-bind="click: responder.bind($data, 5)"> 5 </button>
                             </div>
                         </div>                        
                     </div>
@@ -101,7 +103,7 @@
 					<div class="bio">
 						<div class="bio-img-nome">
 							<div class="wrapper-img-opinion">
-								<img class="img-circle" src="img/unlike.png" data-bind="click: responder.bind($data, 6)">
+                                <button class="nps-button" style="background-color: #e8dc13" data-bind="click: responder.bind($data, 6)"> 6 </button>
 							</div>
 						</div>
 					</div>
@@ -110,7 +112,7 @@
                     <div class="bio">
                         <div class="bio-img-nome">
                             <div class="wrapper-img-opinion">
-                                <img class="img-circle" src="img/like.png" data-bind="click: responder.bind($data, 7)">
+                                <button class="nps-button" style="background-color: #e8e63c" data-bind="click: responder.bind($data, 7)"> 7 </button>
                             </div>
                         </div>                        
                     </div>
@@ -119,7 +121,7 @@
 					<div class="bio">
 						<div class="bio-img-nome">
 							<div class="wrapper-img-opinion">
-								<img class="img-circle" src="img/unlike.png" data-bind="click: responder.bind($data, 8)">
+                                <button class="nps-button" style="background-color: #c5d928" data-bind="click: responder.bind($data, 8)"> 8 </button>
 							</div>
 						</div>
 					</div>
@@ -128,7 +130,7 @@
                     <div class="bio">
                         <div class="bio-img-nome">
                             <div class="wrapper-img-opinion">
-                                <img class="img-circle" src="img/like.png" data-bind="click: responder.bind($data, 9)">
+                                <button class="nps-button" style="background-color: #aed134" data-bind="click: responder.bind($data, 9)"> 9 </button>
                             </div>
                         </div>                        
                     </div>
@@ -137,7 +139,7 @@
 					<div class="bio">
 						<div class="bio-img-nome">
 							<div class="wrapper-img-opinion">
-								<img class="img-circle" src="img/unlike.png" data-bind="click: responder.bind($data, 10)">
+                                <button class="nps-button" style="background-color: #68b254" data-bind="click: responder.bind($data, 10)"> 10 </button>
 							</div>
 						</div>
 					</div>
@@ -145,14 +147,24 @@
             </div>                        
         </div>
         <div class="row">
-            <h3>Clique em uma nota para enviar!</h3>             
+            <br>
+            <div class="feedback-sub">Clique na nota para fazer o envio!</div>
+            <br>
+            <br>
+            <br>
         </div>
         <!-- /ko -->
         <!-- ko if: exibirAgradecimento -->
         <div id="section-evento">
             <div class="row">
                 <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3"> 
-                    <h1>Obrigado por compartilhar a sua opinião.</h1>                 
+                    <br>
+                    <br>
+                    <br>
+                    <div class="feedback-title">Recebemos seu feedback, obrigado!</div>  
+                    <br>
+                    <br>
+                    <br>
                 </div>            
             </div>
         </div>
