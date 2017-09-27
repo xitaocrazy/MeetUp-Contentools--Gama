@@ -30,48 +30,133 @@
         <h2>MeetUp de</h2>
         <h2>Marketing de Conteúdo</h2>
         <br>
-    </div>
-
-    <div id="section-evento">
-        <div class="row">
-            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3"> 
-                <p class="titles section-title">sua opinião</p>                 
-            </div>            
-        </div>
-    </div>
+    </div>  
 
     <div id="section-opiniao">
-        <div class="row justify-content-center">
-            <!-- ko if: exibirPesquisaDeOpiniao -->
-            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-6 col-lg-offset-3">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+        <!-- ko if: exibirPesquisaDeOpiniao -->
+        <div id="section-evento">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3"> 
+                    <h1>Como foi sua experiência</h1>  
+                    <h1>com nosso MeetUp?</h1>                 
+                </div>            
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3"> 
+                <h2>Em uma escala de 1 a 10, quanto você indicaria</h2>  
+                <h2>a um amigo ou familia o Content Insight MeetUp?</h2>                 
+            </div>            
+        </div>
+        <br>  
+        <br>      
+        <div class="row justify-content-center">                        
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-7 col-lg-offset-3">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
                     <div class="bio">
                         <div class="bio-img-nome">
                             <div class="wrapper-img-opinion">
-                                <img class="img-circle" src="img/like.png" data-bind="click: like">
+                                <img class="img-circle" src="img/like.png" data-bind="click: responder.bind($data, 1)">
                             </div>
                         </div>                        
                     </div>
                 </div>
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
 					<div class="bio">
 						<div class="bio-img-nome">
 							<div class="wrapper-img-opinion">
-								<img class="img-circle" src="img/unlike.png" data-bind="click: deslike">
+								<img class="img-circle" src="img/unlike.png" data-bind="click: responder.bind($data, 2)">
+							</div>
+						</div>
+					</div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
+                    <div class="bio">
+                        <div class="bio-img-nome">
+                            <div class="wrapper-img-opinion">
+                                <img class="img-circle" src="img/like.png" data-bind="click: responder.bind($data, 3)">
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
+					<div class="bio">
+						<div class="bio-img-nome">
+							<div class="wrapper-img-opinion">
+								<img class="img-circle" src="img/unlike.png" data-bind="click: responder.bind($data, 4)">
+							</div>
+						</div>
+					</div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
+                    <div class="bio">
+                        <div class="bio-img-nome">
+                            <div class="wrapper-img-opinion">
+                                <img class="img-circle" src="img/like.png" data-bind="click: responder.bind($data, 5)">
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
+					<div class="bio">
+						<div class="bio-img-nome">
+							<div class="wrapper-img-opinion">
+								<img class="img-circle" src="img/unlike.png" data-bind="click: responder.bind($data, 6)">
+							</div>
+						</div>
+					</div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
+                    <div class="bio">
+                        <div class="bio-img-nome">
+                            <div class="wrapper-img-opinion">
+                                <img class="img-circle" src="img/like.png" data-bind="click: responder.bind($data, 7)">
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
+					<div class="bio">
+						<div class="bio-img-nome">
+							<div class="wrapper-img-opinion">
+								<img class="img-circle" src="img/unlike.png" data-bind="click: responder.bind($data, 8)">
+							</div>
+						</div>
+					</div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
+                    <div class="bio">
+                        <div class="bio-img-nome">
+                            <div class="wrapper-img-opinion">
+                                <img class="img-circle" src="img/like.png" data-bind="click: responder.bind($data, 9)">
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
+					<div class="bio">
+						<div class="bio-img-nome">
+							<div class="wrapper-img-opinion">
+								<img class="img-circle" src="img/unlike.png" data-bind="click: responder.bind($data, 10)">
 							</div>
 						</div>
 					</div>
 				</div>
-            </div>
-            <!-- /ko -->
-            <!-- ko if: exibirAgradecimento -->
+            </div>                        
+        </div>
+        <div class="row">
+            <h3>Clique em uma nota para enviar!</h3>             
+        </div>
+        <!-- /ko -->
+        <!-- ko if: exibirAgradecimento -->
+        <div id="section-evento">
             <div class="row">
                 <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3"> 
-                    <p>Obrigado por compartilhar sua opinião.</p>                 
+                    <h1>Obrigado por compartilhar a sua opinião.</h1>                 
                 </div>            
             </div>
-            <!-- /ko -->
         </div>
+        <!-- /ko -->
     </div>
 
     <div  id="section-patrocinadores">
@@ -113,19 +198,13 @@
         self = this;
         
         self.exibirPesquisaDeOpiniao = ko.observable(true);
+        
         self.exibirAgradecimento = ko.computed(function(){
             return !self.exibirPesquisaDeOpiniao();
         }, this);
 
-        self.like = function(){
-            responder(true);
-        }
-        self.deslike = function(){
-            responder(false);
-        }
-
-        function responder(opiniao){
-            var params = {opiniao: opiniao}
+        self.responder = function(valor){
+            var params = {nota: valor}
             //var url = "http://localhost:24125/api/leads/postfrombody";
             //$.post(url, params);
             self.exibirPesquisaDeOpiniao(false);

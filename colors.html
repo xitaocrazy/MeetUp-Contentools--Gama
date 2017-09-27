@@ -13,7 +13,8 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,700'" rel="stylesheet">
 
 	<script src="js/jquery.1.12.4.min.js"></script>
-    <script src="js/bootstrap.js"></script>    
+    <script src="js/bootstrap.js"></script>  
+    <script src="js/knockout-3.4.2.js"></script>  
 </head>
 <body>
 <div class="">        
@@ -31,8 +32,17 @@
         <br>
     </div>
 
+    <div id="section-evento">
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3"> 
+                <h1 class="titles" data-bind="text: mensagem"></h1>                 
+            </div>            
+        </div>
+    </div>
+
     <div id="section-color">
-        <div class="row" id="circulo"></div>
+        <div class="row" data-bind="style: { background: cor }"></div>
+        <h3 class="nome" data-bind="text: corNome"></h3>
     </div>
 
     <div  id="section-patrocinadores">
@@ -70,10 +80,31 @@
 </div>
 </body>
 <script type="text/javascript">
-    $( document ).ready(function() {
-        var colors = ["#fa0c01", "#3701FA", "#EEE021"];
-            var random_color = colors[Math.floor(Math.random() * colors.length)];
-            $("#circulo").css("background", random_color);
-    });        
+    var viewModel = function () {
+        self = this;
+        
+        self.corId = ko.computed(function(){
+            var colors = [0, 1, 2];
+            return colors[Math.floor(Math.random() * colors.length)];
+        }, this);
+
+        self.cor = ko.computed(function(){
+            var cores = ["#fa0c01", "#3701FA", "#EEE021"];
+            return cores[self.corId()];
+        }, this);
+
+        self.corNome = ko.computed(function(){
+            var cores = ["Vermelho", "Azul", "Amarelo"];
+            return cores[self.corId()];
+        }, this);
+
+        self.mensagem = ko.computed(function(){
+            var cores = ["PRODUTIVIDADE", "ENGAJAMENTO", "SEO PARA CONTEUDO"];
+            return "Quais são seus ingishts sobre " + cores[self.corId()] + "?";
+        }, this);
+    }
+
+    ko.applyBindings(new viewModel());
 </script>
+
 </html>
